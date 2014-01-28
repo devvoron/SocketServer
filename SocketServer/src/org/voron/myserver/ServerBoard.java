@@ -44,7 +44,7 @@ public class ServerBoard extends JFrame{
                 message.setText("");
             }
         });
-        startServer = new JButton("Start");
+        startServer = new JButton("Start Server");
         startServer.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
